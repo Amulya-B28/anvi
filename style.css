@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #29282d; /* Dark grayish tone */
+    color: #ffffff; /* White text */
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: #000000; /* Black background for header */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #e79e70; /* Orange accent for header border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #251606; /* Brownish tone for navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: color 0.3s ease, background 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background: #e79e70; /* Orange background on hover */
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #000000; /* Black background for footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #e79e70; /* Orange accent for footer border */
+}
+
+footer p {
+    font-size: 16px;
+    color: #707070; /* Gray color for footer text */
+    margin: 0;
+}
+
+/* Home Page Styles */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.home .info {
+    max-width: 50%;
+}
+
+.home h2 {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, #886a4a, #e3874f); /* Gradient from brown to orange */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.home p {
+    font-size: 16px;
+    color: #707070; /* Grayish color */
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.home .buttons {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #e3874f; /* Orange button */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #886a4a; /* Brown color on hover */
+    transform: scale(1.05);
+}
+
+.home .image img {
+    max-width: 400px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Soft glow */
+}
+
+/* Section Styles */
+.resume, .biodata {
+    padding: 40px;
+    background: #000000; /* Black background for sections */
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Soft shadow */
+    color: #ffffff;
+}
+
+.resume h2, .biodata h2 {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(to right, #886a4a, #e3874f); /* Gradient from brown to orange */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.resume p, .biodata p {
+    font-size: 16px;
+    color: #707070; /* Grayish color */
+    line-height: 1.6;
+}
+
+.resume p strong, .biodata p strong {
+    color: #ffffff; /* White emphasis */
+}
